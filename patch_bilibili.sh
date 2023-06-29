@@ -4,7 +4,7 @@
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # "E:\SYSTEM\Desktop\blhx_7.1.1_20230610_1_20230616_031339_073b2.apk"
-    url="https://github.com/hmgdd101/azurlane/releases/download/default/blhx_7.1.1_20230610_1_20230616_031339_073b2.apk"
+    url="https://pkg.biligame.com/games/blhx_7.1.1_20230610_1_20230616_031339_073b2.apk"
     # 使用wget命令下载apk文件
     curl -o blhx.apk  $url
     fi
